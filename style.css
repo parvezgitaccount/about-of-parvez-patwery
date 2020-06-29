@@ -125,24 +125,53 @@ h5 {
     height: 200px;
     position: absolute;
     margin-top: -220px;
-    opacity: 0.8;
-    z-index: -1;
+    opacity: 0.5;
 }
 
 .shadawhap {
     width: 50%;
     float: left;
+    height: 200px;
+}
+
+h2 {
+    padding: 10px 20px;
+    color: brown;
 }
 
 .parvez {
     width: 80%;
+    padding: 20px 10px;
     margin: auto;
     border: 2px solid gray;
     background-color: rosybrown;
-    box-shadow: 10px 10px 15px red;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
 }
 
 .parvez h1 {
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px 0;
+    color: brown;
+}
+
+.parvez .para {
+    font-size: 20px;
+    padding: 5px 0;
+    color: brown;
+}
+
+#left {
+    border-left: 10px solid rgb(103, 103, 129);
+}
+
+#contact {
+    color: gray;
+}
+
+h4 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
 }
