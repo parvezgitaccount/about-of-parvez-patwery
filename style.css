@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.container {
+    background-image: url("image/top-banner.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    /* border: 3px solid green; */
+}
+
+span {
+    color: blue;
+}
+
+.haf {
+    width: 50%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 9px;
+    /* background: linear-gradient(45deg, red, blue) */
+    background-color: rgb(113, 43, 194);
+    color: rosybrown;
+}
+
+a:hover {
+    background-color: red;
+    transition: 1s;
+    color: #ffF;
+}
+
+.haf p {
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    align-items: justify;
+    padding-top: 30px;
+    color: green;
+    font-style: italic;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+}
+
+.nd {
+    width: 100%;
+    display: inline-block;
+}
+
+.aside {
+    width: 50%;
+    float: left;
+}
+
+.aside h1 {
+    color: rgb(47, 19, 73);
+    padding: 20px 10px;
+}
+
+.aside p {
+    color: rgb(226, 28, 71);
+    align-items: justify;
+    width: 80%;
+    margin: auto;
+}
+
+h5 {
+    font-size: 25px;
+    font-style: oblique;
+    width: 80%;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+
+/* .aside a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: blue;
+    color: rosybrown;
+    border-radius: 10px;
+    margin-left: 10px;
+    letter-spacing: 0.5rem;
+} */
+
+.aside .d {
+    width: 100px;
+    height: 200px;
+    float: right;
+}
+
+.shadew {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.shadawhap img {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    margin-top: -220px;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.shadawhap {
+    width: 50%;
+    float: left;
+}
+
+.parvez {
+    width: 80%;
+    margin: auto;
+    border: 2px solid gray;
+    background-color: rosybrown;
+    box-shadow: 10px 10px 15px red;
+}
+
+.parvez h1 {
+    font-size: 40px;
+    padding: 20px 0;
+}
