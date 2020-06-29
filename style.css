@@ -45,6 +45,14 @@ a {
     color: rosybrown;
 }
 
+.haf img {
+    border-radius: 300px;
+}
+
+.aside img {
+    border-radius: 300px;
+}
+
 a:hover {
     background-color: red;
     transition: 1s;
